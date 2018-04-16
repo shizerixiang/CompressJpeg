@@ -14,7 +14,7 @@ allprojects {
 #### Step 2. 添加依赖库到你 Module 的 build.gradle 下
 ```
 dependencies {
-        compile 'com.github.shizerixiang:CompressJpeg:v1.0.0'
+        implementation 'com.github.shizerixiang:CompressJpeg:v1.0.0'
 }
 ```
 ### Using Kotlin
