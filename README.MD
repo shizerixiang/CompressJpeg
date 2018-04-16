@@ -21,7 +21,8 @@ dependencies {
 ```
     // TODO 异步调用
     val bitmap = BitmapFactory.decodeResource(resources, R.mipmap.bg_001)
-    val path = CompressNative.compressBitmap(bitmap, Environment.getExternalStorageDirectory().absolutePath + File.separator +
-            "DTTimer" + File.separator+"Photo"+File.separator+"BevisW.jpg",quality = 60)
+    val path = CompressNative.compressBitmap(bitmap, Environment.getExternalStorageDirectory().
+    absolutePath + File.separator + "DTTimer" + File.separator+"Photo"+
+    File.separator+"BevisW.jpg",quality = 60)
     Log.e("activity", "是否成功：$path")
 ```
