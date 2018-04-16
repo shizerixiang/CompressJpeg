@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity(), PermissionHelper.OnRequestPermissionsR
                         Manifest.permission.READ_EXTERNAL_STORAGE,
                         Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
             decode()
-        } else finish()
+        }
     }
 
     private fun decode() {
